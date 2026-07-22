@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Kumar Paswan | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:rgb(15,23,42);
+    color:white;
+}
+
+/* Navigation */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgb(20,20,20);
+    position:sticky;
+    top:0;
+}
+
+nav h2{
+    color:rgb(0,255,255);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:rgb(0,255,255);
+}
+
+/* Hero */
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:70px 8%;
+}
+
+.hero-text h1{
+    font-size:45px;
+    color:rgb(0,255,255);
+}
+
+.hero-text h2{
+    color:rgb(255,170,0);
+    margin:10px 0;
+}
+
+.hero-text p{
+    margin-top:10px;
+    line-height:1.8;
+}
+
+.hero img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid rgb(0,255,255);
+    box-shadow:0 0 25px rgb(0,255,255);
+}
+
+/* Section */
+section{
+    padding:60px 8%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:rgb(0,255,255);
+}
+
+.card{
+    background:rgb(35,35,35);
+    padding:25px;
+    border-radius:12px;
+    margin-top:20px;
+    box-shadow:0 0 15px rgba(0,255,255,.2);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:rgb(0,120,255);
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.project{
+    background:rgb(45,45,45);
+    padding:20px;
+    margin-top:20px;
+    border-left:5px solid rgb(0,255,255);
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    background:black;
+    padding:20px;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Portfolio</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div class="hero-text">
+<h1>Rohit Kumar Paswan</h1>
+
+<h2>B.Tech CSE Student</h2>
+
+<p>
+Welcome to my portfolio website.<br>
+I am a Computer Science & Engineering student at
+<strong>ARKA JAIN University</strong>.
+I enjoy programming, web development,
+and learning new technologies.
+</p>
+
+</div>
+
+<div>
+<img src="myphoto.jpg" alt="Rohit Kumar Paswan">
+</div>
+
+</div>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+Hello! I am <b>Rohit Kumar Paswan</b>, pursuing
+<b>B.Tech in Computer Science & Engineering (CSE)</b>
+from <b>ARKA JAIN University</b>.
+
+I am interested in HTML, CSS, C Programming,
+Python, and Web Development.
+My goal is to become a successful Software Engineer.
+</p>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<p><b>University :</b> ARKA JAIN University</p>
+
+<p><b>Course :</b> Bachelor of Technology (B.Tech)</p>
+
+<p><b>Branch :</b> Computer Science & Engineering (CSE)</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+
+<div class="skill">CSS3</div>
+
+<div class="skill">C Programming</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Problem Solving</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>Personal portfolio website using HTML & CSS.</p>
+</div>
+
+<div class="project">
+<h3>Linear Search in C</h3>
+<p>Implemented Linear Search using C language.</p>
+</div>
+
+<div class="project">
+<h3>Menu Driven Calculator</h3>
+<p>C program to calculate the volume of Cube, Cuboid and Sphere.</p>
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p><b>Name :</b> Rohit Kumar Paswan</p>
+
+<p><b>College :</b> ARKA JAIN University</p>
+
+<p><b>Course :</b> B.Tech CSE</p>
+
+<p><b>Email :</b> your-email@example.com</p>
+
+<p><b>Phone :</b> +91-XXXXXXXXXX</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Rohit Kumar Paswan</h3>
+
+<p>B.Tech CSE | ARKA JAIN University</p>
+
+</footer>
+
+</body>
+</html>
